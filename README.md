@@ -346,6 +346,6 @@ Useful if you want to execute a command on input from stdin or derived input. it
  
 Every time you call a command you envoke a process. The OS keeps track of these processes using a 5 digit pattern called a PID. 
 We have foreground and background processes. Foreground occur when we issue any command. The terminal cannot be used until the command is done. This can be time consuming. To make it run in the background it is enough to add an ampersand to the end of the command.
- You can list processes using the ps command and stop them using CTRL+C or kill -9 PID
+You can list processes using the ps command and stop them using CTRL+C or kill -9 PID
 
- 
+
