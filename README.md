@@ -125,7 +125,7 @@ grep is a powerful command to search files for a specific pattern. It can be ext
  
  -E: extended mode that supports regex 
  
- > and >> redirect output to file but if we want to redirect output of one command so it becomes the input of another command we use the pipe or "|"
+ \> and >> redirect output to file but if we want to redirect output of one command so it becomes the input of another command we use the pipe or "|"
  
  history|grep ls will retreive all commands used in the terminal and grep ls will search only for the ls command which should display the correct the times we used ls
  
