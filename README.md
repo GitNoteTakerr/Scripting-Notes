@@ -103,7 +103,7 @@ Processing large files: less text editor. Similarly we have move, nano, emacs, v
   
 Redirecting flow of data: to redirect the output of a program to a file rather than a screen, use > This makes it more flexible to extract and combine data. You can also use cat to concatenate. It takes a list of file names seperated by spaces and outputs the content of the files on the screen. Cat is useful for small files, it will dump th econtent of the files onto the terminal and ctrl+c will kill it if necessary
   
-> will overwrite the content of your file. however u can use >> to append the content to the end of the file so no previously existing data is overwritten and the new data is displayed at the end of the file.
+\> will overwrite the content of your file. however u can use >> to append the content to the end of the file so no previously existing data is overwritten and the new data is displayed at the end of the file.
 
 cat *.txt > combine.txt will dump the content of all txt files into the combine.txt file
 
