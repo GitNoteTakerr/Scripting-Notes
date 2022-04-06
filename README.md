@@ -313,18 +313,31 @@ sed 's/^#.*//;/^$/d' input.txt will replace all lines witha # to blank lines and
  
 awk is a programming language within the shell used to manipulate structured data and generate reports. It read the file, searches for a pattern, performs a task for the matched lines and returns nothing if no pattern is found.
  
+
 input.txt:
+
 100 Thomas 	 Manager 	 Sales 		    $5000
+
 200 Jason 	  Developer Technology 	$5,500
+
 300 Sanjay 	 Sysadmin 	Technology 	$7,000
+
 400 Nisha 	  Manager 	 Marketing 	 $9,500
+
 500 Randy 	  DBA 		    Technology 	$6,000
+ 
 awk '{print $2,$5}' input.txt will print the 2nd and 5th row (employee name and salary)
+
 Thomas $5000
+
 Jason $5,500
+
 Sanjay $7,000
+
 Nisha $9,500
+
 Randy $6,000
+
 each word in a line is stored in a variable. $1 is the 1st word, $2 is the 2nd and so on. $0 represents the whole line and NF represents the total number of fields in a record
  
 # find
